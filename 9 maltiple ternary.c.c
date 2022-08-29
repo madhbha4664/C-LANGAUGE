@@ -6,8 +6,8 @@ int main()
 	char lucky;
 //	printf("please enter a any number");
 //	scanf("%c",&a,&b);
-    lucky = (a>b) ? a : b ;
-	printf("big number is = %d",lucky);
+   // lucky = (a>b) ? a : b ;
+//	printf("big number is = %d",lucky);
 	
 	lucky = (a>b) ? (a>c) ? a  :c          :         (b>c)  ? b :c ;
 	printf("%d",lucky);
