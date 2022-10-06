@@ -19,8 +19,8 @@ int idli(int n)
 
 int main()
 {
-	int choice,x,m;
-	
+	int choice,x,t1=0,t2=0,t3=0,t4=0;
+	char m;
 	
 	
 	do
@@ -42,8 +42,8 @@ int main()
 			printf("\nplease enter quantity\n");
 			scanf("%d",&x);
 			printf("\npizza amount is = %d\n",pizza(x));
-			
-			printf("\nTotal Amount = %d",pizza(x));
+			t1=pizza(x);
+			printf("\nTotal Amount = %d",t1);
 		break;
 		
 		case 2:
@@ -51,8 +51,8 @@ int main()
 			printf("please enter quantity\n");
 			scanf("%d",&x);
 			printf("burger amount is = %d\n",burger(x));
-            
-			printf("\nTotal Amount = %d",burger(x));
+            t2=t1+burger(x);
+			printf("\nTotal Amount = %d",t2);
 		break;
         
         
@@ -61,8 +61,8 @@ int main()
 			printf("please enter quantity\n");
 			scanf("%d",&x);
 			printf("Dhosa amount is = %d\n",dhosa(x));
-            
-			printf("\nTotal Amount = %d",dhosa(x));
+            t3=t2+dhosa(x);
+			printf("\nTotal Amount = %d",t3);
 		break;
         
         case 4:
@@ -70,8 +70,8 @@ int main()
 			printf("please enter quantity\n");
 			scanf("%d",&x);
 			printf("dhosa amount is = %d\n",idli(x));
-            
-			printf("\nTotal Amount = %d",idli(x));    
+            t4=t3+idli(x);
+			printf("\nTotal Amount = %d",t4);    
 		break;
         
         

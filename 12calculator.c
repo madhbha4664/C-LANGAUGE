@@ -2,7 +2,7 @@
 int main ()
 {
 
-int num1num2;
+int num1,num2;
 char madhbha;
 
 printf("enter your choice (+,-,*,/)");
